@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   .parent{
+    /* border: 2px solid red; */
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #caf0f6;
+    border: 4px solid #023047;
+    display: inline-block;
+    margin-right: 20px;
+   }
+   .profile-img{
+    height: 200px;
+    width: 200px;
+    background-image: url("/photo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+    border: 7PX solid #14213d;
+   }
+   .parent .profile-img:hover{
+    box-shadow: 0 0 20px 3px #457b9d;
+   }
+   .parent h1{
+    color: #457b9d;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+   }
+   .parent h1:hover{
+    text-shadow: 0 0 10px grey;
+   }
+   .parent p{
+    /* border: 2px solid red; */
+    text-align: justify;
+    font-size: 20px;
+   }
+   .parent button{
+    display: block;
+    margin: auto;
+    border: 4px solid rgba(255, 255, 255);
+    /* background-image: linear-gradient(to right,#121212,#555cd5); */
+    background-color: #023047;
+    padding: 8px;
+    border-radius: 30px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   .parent button:hover{
+    border: 4px solid #023047;
+    background-color: white;
+    color: #023047;
+   }
+   .parent button a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+   }
+   .parent button:hover a{
+    color: #023047;
+   }
